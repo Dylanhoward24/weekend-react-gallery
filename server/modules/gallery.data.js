@@ -1,5 +1,10 @@
 const galleryItems = [
-    { id: 1, path: 'images/goat_small.jpg', description: 'Photo of a goat taken at Glacier National Park.', likes: 0 }
+    { id: 1, path: 'images/beale_street.jpg', descripion: 'Photoshoot with Huyen on Beale Street before leaving Memphis.', likes: 0 },
+    { id: 2, path: 'images/disc_golf.jpg', descripion: 'A disc stuck in the ground after a long drive.', likes: 0 },
+    { id: 3, path: 'images/engagement_photos.jpg', descripion: 'Photoshoot with Huyen in Minnesota to celebrate our engagement.', likes: 0 },
+    { id: 4, path: 'images/dfall_minis.jpg', descripion: 'Fall mini session with Huyen in Millington near a Volkswagen Bus.', likes: 0 },
+    { id: 5, path: 'images/navy_ball.jpg', descripion: 'Me and Huyen at the Navy Ball in 2019.', likes: 0 },
+    { id: 6, path: 'images/sculpture_garden.jpg', descripion: 'Photo of the spoon and cherry at the Minneapolis Sculpture Garden.', likes: 0 }
 ];
 
 module.exports = galleryItems;

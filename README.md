@@ -2,14 +2,14 @@
 
 BASE GOALS
 [ ] Create a gallery page of meaningful pictures
-    [ ] Include some more pictures
+    [X] Include some more pictures
         [X] Upload some images into the public/images folder
             [X] Modify the image size, if required
-        [ ] Update the server/modules/data.js to include:
-            [ ] id
-            [ ] title
-            [ ] description
-            [ ] path
+        [X] Update the server/modules/data.js to include:
+            [X] id
+            [X] title
+            [X] description
+            [X] path
     [ ] Get server and client up and running
         [ ] install nodemon: 'npm install nodemon --global'
         [ ] install node_modules: 'npm install'
