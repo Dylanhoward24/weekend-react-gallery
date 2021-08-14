@@ -3,8 +3,8 @@
 BASE GOALS
 [ ] Create a gallery page of meaningful pictures
     [ ] Include some more pictures
-        [ ] Upload some images into the public/images folder
-            [ ] Modify the image size, if required
+        [X] Upload some images into the public/images folder
+            [X] Modify the image size, if required
         [ ] Update the server/modules/data.js to include:
             [ ] id
             [ ] title
