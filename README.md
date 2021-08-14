@@ -1,7 +1,7 @@
 # Weekend React Gallery
 
 BASE GOALS
-[ ] Create a gallery page of meaningful pictures
+[X] Create a gallery page of meaningful pictures
     [X] Include some more pictures
         [X] Upload some images into the public/images folder
             [X] Modify the image size, if required
@@ -10,19 +10,19 @@ BASE GOALS
             [X] title
             [X] description
             [X] path
-    [ ] Get server and client up and running
-        [ ] install nodemon: 'npm install nodemon --global'
-        [ ] install node_modules: 'npm install'
-        [ ] start the server: 'npm run server'
-        [ ] start the client:
-            [ ] open a new terminal tab
-            [ ] 'npm run client'
+    [X] Get server and client up and running
+        [X] install nodemon: 'npm install nodemon --global'
+        [X] install node_modules: 'npm install'
+        [X] start the server: 'npm run server'
+        [X] start the client:
+            [X] open a new terminal tab
+            [X] 'npm run client'
 [ ] Build the gallery using multiple components
     [ ] App
-        [ ] Import Component <GalleryList />
+        [X] Import Component <GalleryList />
         [ ] Axios functions to:
-            [ ] 'GET' the items from gallery.data.js
-                [ ] Display on page load
+            [X] 'GET' the items from gallery.data.js
+                [X] Display on page load
             [ ] 'PUT' (update) items in gallery.data.js
         [ ] <GalleryList {likePicture, galleryData}/> to pass
             the prop to the Component
