@@ -17,7 +17,7 @@ BASE GOALS
         [X] start the client:
             [X] open a new terminal tab
             [X] 'npm run client'
-[ ] Build the gallery using multiple components
+[X] Build the gallery using multiple components
     [X] App
         [X] Import Component <GalleryList />
         [X] Axios functions to:
@@ -31,11 +31,11 @@ BASE GOALS
         [X] Create HTML for displaying the pictures
         [X] <GalleryItem {likePicture, galleryData}/> to pass
             the prop once more to the Component
-    [ ] GalleryItem
+    [X] GalleryItem
         [X] Create button for updating likes
         [X] Use function likePicture() passed down as a prop
             to update the individual picture's COUNT
-        [ ] Swap the image with the description on click using
+        [X] Swap the image with the description on click using
             conditional rendering
         [X] Display the number of likes for each item
         [X] Re-render the galleryData on the DOM each time a
