@@ -18,28 +18,27 @@ BASE GOALS
             [X] open a new terminal tab
             [X] 'npm run client'
 [ ] Build the gallery using multiple components
-    [ ] App
+    [X] App
         [X] Import Component <GalleryList />
-        [ ] Axios functions to:
+        [X] Axios functions to:
             [X] 'GET' the items from gallery.data.js
                 [X] Display on page load
-            [ ] 'PUT' (update) items in gallery.data.js
-        [ ] <GalleryList {likePicture, galleryData}/> to pass
+            [X] 'PUT' (update) items in gallery.data.js
+        [X] <GalleryList {likePicture, galleryData}/> to pass
             the prop to the Component
-    [ ] GalleryList
-        [ ] Import Component <GalleryItem />
-        [ ] Create HTML for displaying the pictures
-        [ ] <GalleryItem {likePicture, galleryData}/> to pass
+    [X] GalleryList
+        [X] Import Component <GalleryItem />
+        [X] Create HTML for displaying the pictures
+        [X] <GalleryItem {likePicture, galleryData}/> to pass
             the prop once more to the Component
     [ ] GalleryItem
-        [ ] Create button for updating likes
-        [ ] Use function likePicture() passed down as a prop
+        [X] Create button for updating likes
+        [X] Use function likePicture() passed down as a prop
             to update the individual picture's COUNT
-            [ ] Will need a useState for count, setCount
         [ ] Swap the image with the description on click using
             conditional rendering
-        [ ] Display the number of likes for each item
-        [ ] Re-render the galleryData on the DOM each time a
+        [X] Display the number of likes for each item
+        X] Re-render the galleryData on the DOM each time a
             picture is "liked"
 
 ## Description

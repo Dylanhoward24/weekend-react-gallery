@@ -1,0 +1,17 @@
+.likeBtn, .numLikes {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.numLikes {
+    margin-left: 10px;
+}
+
+.picDescription {
+    margin-top: 10px;
+}
+
+.picture {
+    /* display: inline-block; */
+}
