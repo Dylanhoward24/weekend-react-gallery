@@ -38,7 +38,7 @@ BASE GOALS
         [ ] Swap the image with the description on click using
             conditional rendering
         [X] Display the number of likes for each item
-        X] Re-render the galleryData on the DOM each time a
+        [X] Re-render the galleryData on the DOM each time a
             picture is "liked"
 
 ## Description
