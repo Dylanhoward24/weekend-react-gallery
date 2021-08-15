@@ -28,9 +28,19 @@ function App() {
         alert(`Couldn't get pictures. Try again later.`);
         console.log(`Error getting inventory`, error);
       });
+    // console.log('galleryData is', galleryData);
   }
 
-  console.log(galleryData);
+  const likePicture = (id) => {
+    axios
+      .put(`/gallery/like/${id}`)
+      .then((response) => {
+        getPictures();
+      }).catch((error) => {
+        alert(`Couldn't update likes. Try again later.`);
+        console.log(`Error updating likes`, error);
+      });
+  }
 
   return (
     <div className="App">
@@ -39,6 +49,7 @@ function App() {
       </header>
       <GalleryList 
         galleryData={galleryData}
+        likePicture={likePicture}
       />
     </div>
   );
